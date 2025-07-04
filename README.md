@@ -1,40 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📝 easyREADME
 
-## Getting Started
+**easyREADME** is a simple, modern, and intuitive web app to help developers create beautiful and customizable `README.md` files for their projects — with support for live preview, markdown editing, drag-and-drop sections, and multilingual UI.
 
-First, run the development server:
+---
+
+## 🌟 Features
+
+- ⚙️ **Live Markdown Editor** with syntax highlighting
+- 🔍 **Live Preview** with GitHub-style markdown rendering
+- 🧩 **Drag-and-drop Section Builder**
+- 🌐 **Multilingual Support** (English, Hindi)
+- 🌙 **Dark Mode / Light Mode Toggle**
+- 🛠️ **Custom Section Creation**
+- 💾 **LocalStorage Backup** for persistence
+- 🚀 **Responsive Design** (Mobile & Desktop)
+- 🖼️ **Instant Raw Preview Output**
+- 📦 Built using **Next.js**, **Tailwind CSS**, **dnd-kit**, and **React Markdown**
+
+---
+
+## 📸 Screenshots
+
+| Editor Page 
+|-------------
+| ![Editor](public/easyReadme.png)
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **Framework:** Next.js
+- **Styling:** Tailwind CSS
+- **Drag & Drop:** `@dnd-kit`
+- **Markdown Parser:** `react-markdown`, `remark-gfm`
+- **Localization:** `next-i18next`
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### 📦 Install Dependencies
+
+Make sure you have Node.js (v18+) and npm installed.
+
+```bash
+npm install
+```
+
+### ⚙️ Development Server
+
+To run the development server locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the app on [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### 🤝 Contributing
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Contributions are welcome! Feel free to fork the repository and create a pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
 
-## Learn More
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Made with ❤️ by [Sayantan Biswas](https://in.linkedin.com/in/sayantan-biswas-352a8a27b)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
